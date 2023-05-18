@@ -15,14 +15,14 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  shopee,
+  nogle,
+  line_taxi,
+  appworks_school,
 } from '../assets';
 
 export const navLinks = [
@@ -118,8 +118,8 @@ const experiences = [
   {
     title: 'Front-End Engineer',
     company_name: 'Nogle',
-    icon: starbucks,
-    iconBg: '#383E56',
+    icon: nogle,
+    iconBg: '#E6DEDD',
     date: 'Sep 2022 - Feb 2023',
     points: [
       'Create reusable Vue.js components and maintain component in Storybook on Payment project ',
@@ -131,7 +131,7 @@ const experiences = [
   {
     title: 'Front-End Engineer',
     company_name: 'Shopee Singapore',
-    icon: tesla,
+    icon: shopee,
     iconBg: '#E6DEDD',
     date: 'Nov 2020 - Aug 2022',
     points: [
@@ -147,8 +147,8 @@ const experiences = [
   {
     title: 'Front-End Engineer',
     company_name: 'LINE TAXI',
-    icon: shopify,
-    iconBg: '#383E56',
+    icon: line_taxi,
+    iconBg: '#E6DEDD',
     date: 'Dec 2019 - Nov 2020',
     points: [
       '•Cooperate with the marketing team to build promotion events for a 2M+ users base, requiring 2000+ new users and increasing existing users activeness',
@@ -162,7 +162,7 @@ const experiences = [
   {
     title: 'Front-End Class Trainee',
     company_name: 'AppWorks School',
-    icon: meta,
+    icon: appworks_school,
     iconBg: '#E6DEDD',
     date: 'Jun 2019 - Oct 2019',
     points: [

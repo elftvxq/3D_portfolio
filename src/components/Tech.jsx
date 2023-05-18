@@ -1,9 +1,8 @@
-import React from 'react'
+import React from 'react';
+import { BallCanvas } from './canvas';
 
 const Tech = () => {
-  return (
-    <div>Tech</div>
-  )
-}
+  return <div>Tech</div>;
+};
 
-export default Tech
+export default Tech;
