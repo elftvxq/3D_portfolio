@@ -135,9 +135,9 @@ const experiences = [
     iconBg: '#E6DEDD',
     date: 'Nov 2020 - Aug 2022',
     points: [
-      'Develop and maintain an internal service system for regional teams across 9 markets, and increase the usage of requesting tickets on the platform by an average of 300% growth after launching the system.',
+      'Develop and maintain a service system for regional teams across 9 markets, and increase the usage of requesting tickets on the platform by an average of 300% growth after launching the system.',
       'Build ShopeePay applications by styled-components and Google Script API, deliver in Thailand as well as in Indonesia, generating over 10,000+ service requests in each region. Improve SEO by inserting meta tags and embed google tag management to collect the marketing data with local operation teams',
-      '•Maintain components styling with Design Team to make project design consistent adhering to Shopee branding design, and build internal shared UI components by using Figma as a communication tool',
+      'Maintain components styling with Design Team to make project design consistent adhering to Shopee branding design, and build internal shared UI components by using Figma as a communication tool',
       'Evaluate the feasibility of requirements with PM, designers, and Backend, discuss the better solution, prioritize the tasks, write and maintain technical documents, and complete the requirements on the scheduled timeline',
       'Create reusable react components, plan the structure of project from scratch, and lead the interns to complete the assigned projects',
       'Build a project of data dashboard by using the chart and statistic table to track the important index of the service system, and improve the efficiency of the operation team',
@@ -151,7 +151,7 @@ const experiences = [
     iconBg: '#E6DEDD',
     date: 'Dec 2019 - Nov 2020',
     points: [
-      '•Cooperate with the marketing team to build promotion events for a 2M+ users base, requiring 2000+ new users and increasing existing users activeness',
+      'Cooperate with the marketing team to build promotion events for a 2M+ users base, requiring 2000+ new users and increasing existing users activeness',
       'Complete detailed programming and development tasks for internal management websites used by customer service, operation, and marketing departments',
       'Improve pages to display users trip details and ride routes history by producing visual elements',
       'Implement pagination, filter, and keyword search on the explore page, allowing users to find their desired results efficiently',
@@ -174,30 +174,26 @@ const experiences = [
   },
 ];
 
-const testimonials = [
+const educations = [
   {
-    testimonial:
-      'I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.',
-    name: 'Sara Lee',
-    designation: 'CFO',
-    company: 'Acme Co',
-    image: 'https://randomuser.me/api/portraits/women/4.jpg',
+    experiences: [
+      'Honor: Excellence Graduate Student Application Award (The 1st prize)',
+      'Honor: Academic Excellence Award (Top 3)',
+      'Overall GPA: 4.06 / 4.3',
+    ],
+    school_name: 'National Chiao Tung University ',
+    duration: '09/2014 – 06/2017',
+    major: 'Master of Communication and Technology',
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: 'Chris Brown',
-    designation: 'COO',
-    company: 'DEF Corp',
-    image: 'https://randomuser.me/api/portraits/men/5.jpg',
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: 'Lisa Wang',
-    designation: 'CTO',
-    company: '456 Enterprises',
-    image: 'https://randomuser.me/api/portraits/women/6.jpg',
+    experiences: [
+      'Leadership: The Student Association of Department − Vice President',
+      'Minor major: The Applied English Program',
+      'Overall GPA: 4.09 / 4.5',
+    ],
+    school_name: 'National Chung Cheng University',
+    duration: '09/2010 – 06/2014',
+    major: 'Bachelor of Communication',
   },
 ];
 
@@ -267,4 +263,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, educations, projects };
