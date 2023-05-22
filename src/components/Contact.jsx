@@ -6,14 +6,53 @@ import { EarthCanvas } from './canvas';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
 
+// template_p7zvdpd
+// service_qvft3ff
+// ziH5IKCOYhEBcx1SM
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({ name: '', email: '', message: '' });
   const [loading, setLoading] = useState(false);
 
-  const handleChange = (e) => {};
+  const handleChange = (e) => {
+    const { name, value } = e.target;
 
-  const handleSubmit = (e) => {};
+    setForm({ ...form, [name]: value });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true);
+
+    emailjs
+      .send(
+        'service_qvft3ff',
+        'template_p7zvdpd',
+        {
+          from_name: form.name,
+          to_name: 'Emmma',
+          from_email: form.email,
+          to_email: 'emmashih721@hotmail.com',
+          message: form.message,
+        },
+        'ziH5IKCOYhEBcx1SM'
+      )
+      .then(
+        () => {
+          setLoading(false);
+          alert("Thanks for your message! I'll get back to you soon!");
+
+          setForm({ name: '', email: '', message: '' });
+        },
+        (error) => {
+          setLoading(false);
+          console.log(error);
+
+          alert('Something went wrong... Please try again!');
+        }
+      );
+  };
 
   return (
     <div
