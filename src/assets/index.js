@@ -26,9 +26,9 @@ import nogle from './company/nogle.png';
 import line_taxi from './company/line_taxi.png';
 import appworks_school from './company/appworks_school.png';
 
-import carrent from './carrent.png';
-import jobit from './jobit.png';
-import tripguide from './tripguide.png';
+import cryptoTracker from './cryptoTracker.jpeg';
+import portfolio from './portfolio.png';
+import chatRoom from './chatRoom.png';
 
 export {
   backend,
@@ -51,12 +51,12 @@ export {
   tailwind,
   typescript,
   threejs,
-  carrent,
-  jobit,
-  tripguide,
   shopee,
   nogle,
   line_taxi,
   appworks_school,
   logo,
+  cryptoTracker,
+  portfolio,
+  chatRoom,
 };

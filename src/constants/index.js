@@ -15,14 +15,14 @@ import {
   git,
   figma,
   docker,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   shopee,
   nogle,
   line_taxi,
   appworks_school,
+  cryptoTracker,
+  portfolio,
+  chatRoom,
 } from '../assets';
 
 export const navLinks = [
@@ -105,11 +105,11 @@ const technologies = [
     icon: git,
   },
   {
-    name: 'figma',
+    name: 'Figma',
     icon: figma,
   },
   {
-    name: 'docker',
+    name: 'Docker',
     icon: docker,
   },
 ];
@@ -199,67 +199,72 @@ const educations = [
 
 const projects = [
   {
-    name: 'Car Rent',
+    name: '3D Animation Portfolio',
     description:
-      'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+      'Web-based portfolio is created by stunning 3D models and geometries with various lights, as well as understand the 3D world with a camera and positioning of an object in space. Viewers enable to send emails through a form on the website',
     tags: [
       {
-        name: 'react',
+        name: 'React & vite',
         color: 'blue-text-gradient',
       },
       {
-        name: 'mongodb',
+        name: 'ThreeJS',
         color: 'green-text-gradient',
       },
       {
-        name: 'tailwind',
+        name: 'React Three Fiber',
         color: 'pink-text-gradient',
       },
+      {
+        name: 'TailwindCSS',
+        color: 'grey-text-gradient',
+      },
     ],
-    image: carrent,
-    source_code_link: 'https://github.com/',
+    image: portfolio,
+    source_code_link: 'https://github.com/elftvxq/3D_portfolio',
   },
   {
-    name: 'Job IT',
+    name: 'Realtime Chat Room',
     description:
-      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+      'A realtime chat room implemented by Socket.io, TypeScript and TailwindCSS. Users are able to join the different rooms and send messages to each other. The chat room is responsive and can be used on mobile devices as well as on desktops',
     tags: [
       {
-        name: 'react',
+        name: 'TypeScript',
         color: 'blue-text-gradient',
       },
       {
-        name: 'restapi',
+        name: 'Socket.io',
         color: 'green-text-gradient',
       },
       {
-        name: 'scss',
+        name: 'TailwindCSS',
         color: 'pink-text-gradient',
       },
     ],
-    image: jobit,
-    source_code_link: 'https://github.com/',
+    image: chatRoom,
+    source_code_link: 'https://github.com/elftvxq/socket-chatroom',
   },
   {
-    name: 'Trip Guide',
+    name: 'Crypto Price Tracker',
     description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+      'A mobile app implemented by Expo and React Native that users are able to view the current price, market cap rank, percentage change in 24h on chart and total volume. Fetch currency data by axios from CoinGecko API and display currency change on line graph ',
     tags: [
       {
-        name: 'nextjs',
+        name: 'react-native',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'Context API',
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
+        name: 'CoinGeko API',
         color: 'pink-text-gradient',
       },
     ],
-    image: tripguide,
-    source_code_link: 'https://github.com/',
+    image: cryptoTracker,
+    source_code_link:
+      'https://github.com/elftvxq/react-native-crypto-price-tracker',
   },
 ];
 
